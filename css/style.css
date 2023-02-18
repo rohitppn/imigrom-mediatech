@@ -1,0 +1,311 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color: #000;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.btn{
+  width: 15rem;
+  height: 4rem;
+  color: #000;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.7rem;
+  background-color: #FFC700;
+  border: 3px solid #FFC700;
+  opacity: 90%;
+  cursor: pointer;
+  position: relative;
+  top: 1.2rem;
+  line-height: 0.8;
+  letter-spacing: 0.037em;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn:hover{
+  background-color: #FFC700;
+  color: #000;
+  opacity: 100%;
+}
+
+.btn-primary{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  width: 22rem;
+  margin-top: 1rem;
+}
+
+
+header{
+  width: 100%;
+  position: relative;
+}
+
+nav{
+  width: 100%;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 1rem;
+  z-index: 1;
+}
+
+nav .brand-logo{
+  color: #fff;
+  position: relative;
+  top: 2rem;
+  left: 4rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.107em;
+  line-height: 1;
+ display: inline-block;
+}
+
+nav ul{
+  float: right;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+  right: 5rem;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  padding: 0.25em 1em;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover{
+  color: #FFC700;
+  text-decoration: underline;
+}
+
+
+
+.landing-page{
+  position: relative;
+  width: 100%;
+}
+
+.home-content{
+  color: white;
+  position: absolute;
+  top: 16rem;
+  left: 4rem;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.home-content h1{
+  font-size: 4vw;
+  line-height: 1.5;
+  letter-spacing: 0.005em;
+}
+
+
+.back-black{
+  width: 100%;
+  opacity: 85%;
+  background-color:#000;
+}
+
+span{
+  color: #FFC700;
+}
+
+.img-container{
+  z-index: 1;
+}
+
+
+.landing-page .img-container img{
+  width: 100%;
+  /* position: absolute; */
+}
+
+
+
+.section_2{
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+
+.article_1{
+  width: 100%;
+  overflow: hidden;
+}
+
+.img-section_1 img{
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 5rem;
+}
+
+.img-section_1{
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.content_1{
+  display: inline-block;
+  width: 30%;
+  position: absolute;
+  top: 4rem;
+  margin-left: 7rem;
+}
+
+.content_1 h2{
+  color: #fff;
+  display: inline-block;
+  font-size: 4rem;
+  line-height: 1.4;
+  letter-spacing: 0.037em;
+}
+
+.content_1 p{
+  font-size: 19px;
+  line-height: 1.6;
+  letter-spacing: 0.016em;
+  margin-top: 3rem;
+  color: #fff;
+}
+
+
+
+
+
+
+.section_3{
+  width: 100%;
+  position: absolute;
+
+}
+
+.article_2{
+  margin-bottom: 2000px;
+}
+
+.img-section_2 img{
+  width: 50%;
+  margin-top: 60%;
+  float: right;
+  border-radius: 1rem;
+}
+
+
+
+.content_2{
+  display: inline-block;
+  width: 40%;
+  position: absolute;
+  top: 12rem;
+  margin-left: 4rem;
+  margin-top:55%;
+}
+
+/* .img-section_2{
+  width: 50%;
+  box-sizing: border-box;
+  float: right;
+} */
+
+.content_2 h2{
+  color: #fff;
+  display: inline-block;
+  font-size: 3rem;
+  line-height: 1.4;
+  letter-spacing: 0.037em;
+}
+
+.content_2 p{
+  font-size: 19px;
+  line-height: 1.6;
+  letter-spacing: 0.016em;
+  margin-top: 3rem;
+  color: #fff;
+}
+
+
+.section_4{
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.img-section_3 img{
+  width: 50%;
+  margin-top: 115%;
+  float: left;
+  border-radius: 1rem;
+}
+
+.content_3{
+  display: inline-block;
+  width: 40%;
+  position: absolute;
+  top: 12rem;
+  margin-left: 4rem;
+  margin-top:110%;
+
+}
+
+.content_3 h2{
+  color: #fff;
+  display: inline-block;
+  font-size: 3rem;
+  line-height: 1.4;
+  letter-spacing: 0.037em;
+}
+
+.content_3 p{
+  font-size: 19px;
+  line-height: 1.6;
+  letter-spacing: 0.016em;
+  margin-top: 3rem;
+  color: #fff;
+}
+
+
+.tagline{
+  width: 100%;
+  height: 25rem;
+  margin-top: 152rem;
+  background-color: #ffbb00;
+  margin-bottom: 4rem;
+}
+
+.tagline h1{
+  text-align: center;
+  padding-top: 148px;
+  font-size: 3rem;
+}
+
+hr{
+  width: 35%;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+.tagline p{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
